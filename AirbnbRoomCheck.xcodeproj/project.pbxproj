@@ -14,6 +14,8 @@
 		065CB1732A0C0AAE00816B79 /* AirbnbRoomCheckTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 065CB1722A0C0AAE00816B79 /* AirbnbRoomCheckTests.swift */; };
 		065CB17D2A0C0AAE00816B79 /* AirbnbRoomCheckUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 065CB17C2A0C0AAE00816B79 /* AirbnbRoomCheckUITests.swift */; };
 		065CB17F2A0C0AAF00816B79 /* AirbnbRoomCheckUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 065CB17E2A0C0AAF00816B79 /* AirbnbRoomCheckUITestsLaunchTests.swift */; };
+		065CB18F2A0C0EF700816B79 /* SearchLocationsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 065CB18E2A0C0EF700816B79 /* SearchLocationsView.swift */; };
+		065CB1912A0C0F9E00816B79 /* LocationDataModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 065CB1902A0C0F9E00816B79 /* LocationDataModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +46,8 @@
 		065CB1782A0C0AAE00816B79 /* AirbnbRoomCheckUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AirbnbRoomCheckUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		065CB17C2A0C0AAE00816B79 /* AirbnbRoomCheckUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AirbnbRoomCheckUITests.swift; sourceTree = "<group>"; };
 		065CB17E2A0C0AAF00816B79 /* AirbnbRoomCheckUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AirbnbRoomCheckUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		065CB18E2A0C0EF700816B79 /* SearchLocationsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchLocationsView.swift; sourceTree = "<group>"; };
+		065CB1902A0C0F9E00816B79 /* LocationDataModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationDataModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -95,8 +99,10 @@
 			isa = PBXGroup;
 			children = (
 				065CB1612A0C0A9B00816B79 /* AirbnbRoomCheckApp.swift */,
-				065CB1632A0C0A9B00816B79 /* ContentView.swift */,
 				065CB1652A0C0AAE00816B79 /* Assets.xcassets */,
+				065CB18B2A0C0E8D00816B79 /* Model */,
+				065CB18C2A0C0E9F00816B79 /* View */,
+				065CB18D2A0C0EB700816B79 /* View Model */,
 				065CB1672A0C0AAE00816B79 /* Preview Content */,
 			);
 			path = AirbnbRoomCheck;
@@ -125,6 +131,30 @@
 				065CB17E2A0C0AAF00816B79 /* AirbnbRoomCheckUITestsLaunchTests.swift */,
 			);
 			path = AirbnbRoomCheckUITests;
+			sourceTree = "<group>";
+		};
+		065CB18B2A0C0E8D00816B79 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				065CB1902A0C0F9E00816B79 /* LocationDataModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		065CB18C2A0C0E9F00816B79 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				065CB1632A0C0A9B00816B79 /* ContentView.swift */,
+				065CB18E2A0C0EF700816B79 /* SearchLocationsView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		065CB18D2A0C0EB700816B79 /* View Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "View Model";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -259,6 +289,8 @@
 			files = (
 				065CB1642A0C0A9B00816B79 /* ContentView.swift in Sources */,
 				065CB1622A0C0A9B00816B79 /* AirbnbRoomCheckApp.swift in Sources */,
+				065CB1912A0C0F9E00816B79 /* LocationDataModel.swift in Sources */,
+				065CB18F2A0C0EF700816B79 /* SearchLocationsView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

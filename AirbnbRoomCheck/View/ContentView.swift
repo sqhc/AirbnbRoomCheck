@@ -17,6 +17,10 @@ struct ContentView: View {
                     Text("What do you want to search?")
                         .foregroundColor(.white)
                         .font(.title)
+                    NavigationLink("Locations", destination: SearchLocationsView())
+                        .background()
+                        .cornerRadius(20)
+                        .padding()
                 }
             }
             .navigationTitle("Welcome using Airbnb")
