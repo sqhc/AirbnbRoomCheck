@@ -1,0 +1,590 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		065CB1622A0C0A9B00816B79 /* AirbnbRoomCheckApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 065CB1612A0C0A9B00816B79 /* AirbnbRoomCheckApp.swift */; };
+		065CB1642A0C0A9B00816B79 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 065CB1632A0C0A9B00816B79 /* ContentView.swift */; };
+		065CB1662A0C0AAE00816B79 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 065CB1652A0C0AAE00816B79 /* Assets.xcassets */; };
+		065CB1692A0C0AAE00816B79 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 065CB1682A0C0AAE00816B79 /* Preview Assets.xcassets */; };
+		065CB1732A0C0AAE00816B79 /* AirbnbRoomCheckTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 065CB1722A0C0AAE00816B79 /* AirbnbRoomCheckTests.swift */; };
+		065CB17D2A0C0AAE00816B79 /* AirbnbRoomCheckUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 065CB17C2A0C0AAE00816B79 /* AirbnbRoomCheckUITests.swift */; };
+		065CB17F2A0C0AAF00816B79 /* AirbnbRoomCheckUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 065CB17E2A0C0AAF00816B79 /* AirbnbRoomCheckUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		065CB16F2A0C0AAE00816B79 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 065CB1562A0C0A9A00816B79 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 065CB15D2A0C0A9A00816B79;
+			remoteInfo = AirbnbRoomCheck;
+		};
+		065CB1792A0C0AAE00816B79 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 065CB1562A0C0A9A00816B79 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 065CB15D2A0C0A9A00816B79;
+			remoteInfo = AirbnbRoomCheck;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		065CB15E2A0C0A9B00816B79 /* AirbnbRoomCheck.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AirbnbRoomCheck.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		065CB1612A0C0A9B00816B79 /* AirbnbRoomCheckApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AirbnbRoomCheckApp.swift; sourceTree = "<group>"; };
+		065CB1632A0C0A9B00816B79 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		065CB1652A0C0AAE00816B79 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		065CB1682A0C0AAE00816B79 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		065CB16E2A0C0AAE00816B79 /* AirbnbRoomCheckTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AirbnbRoomCheckTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		065CB1722A0C0AAE00816B79 /* AirbnbRoomCheckTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AirbnbRoomCheckTests.swift; sourceTree = "<group>"; };
+		065CB1782A0C0AAE00816B79 /* AirbnbRoomCheckUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AirbnbRoomCheckUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		065CB17C2A0C0AAE00816B79 /* AirbnbRoomCheckUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AirbnbRoomCheckUITests.swift; sourceTree = "<group>"; };
+		065CB17E2A0C0AAF00816B79 /* AirbnbRoomCheckUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AirbnbRoomCheckUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		065CB15B2A0C0A9A00816B79 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		065CB16B2A0C0AAE00816B79 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		065CB1752A0C0AAE00816B79 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		065CB1552A0C0A9A00816B79 = {
+			isa = PBXGroup;
+			children = (
+				065CB1602A0C0A9B00816B79 /* AirbnbRoomCheck */,
+				065CB1712A0C0AAE00816B79 /* AirbnbRoomCheckTests */,
+				065CB17B2A0C0AAE00816B79 /* AirbnbRoomCheckUITests */,
+				065CB15F2A0C0A9B00816B79 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		065CB15F2A0C0A9B00816B79 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				065CB15E2A0C0A9B00816B79 /* AirbnbRoomCheck.app */,
+				065CB16E2A0C0AAE00816B79 /* AirbnbRoomCheckTests.xctest */,
+				065CB1782A0C0AAE00816B79 /* AirbnbRoomCheckUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		065CB1602A0C0A9B00816B79 /* AirbnbRoomCheck */ = {
+			isa = PBXGroup;
+			children = (
+				065CB1612A0C0A9B00816B79 /* AirbnbRoomCheckApp.swift */,
+				065CB1632A0C0A9B00816B79 /* ContentView.swift */,
+				065CB1652A0C0AAE00816B79 /* Assets.xcassets */,
+				065CB1672A0C0AAE00816B79 /* Preview Content */,
+			);
+			path = AirbnbRoomCheck;
+			sourceTree = "<group>";
+		};
+		065CB1672A0C0AAE00816B79 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				065CB1682A0C0AAE00816B79 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		065CB1712A0C0AAE00816B79 /* AirbnbRoomCheckTests */ = {
+			isa = PBXGroup;
+			children = (
+				065CB1722A0C0AAE00816B79 /* AirbnbRoomCheckTests.swift */,
+			);
+			path = AirbnbRoomCheckTests;
+			sourceTree = "<group>";
+		};
+		065CB17B2A0C0AAE00816B79 /* AirbnbRoomCheckUITests */ = {
+			isa = PBXGroup;
+			children = (
+				065CB17C2A0C0AAE00816B79 /* AirbnbRoomCheckUITests.swift */,
+				065CB17E2A0C0AAF00816B79 /* AirbnbRoomCheckUITestsLaunchTests.swift */,
+			);
+			path = AirbnbRoomCheckUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		065CB15D2A0C0A9A00816B79 /* AirbnbRoomCheck */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 065CB1822A0C0AAF00816B79 /* Build configuration list for PBXNativeTarget "AirbnbRoomCheck" */;
+			buildPhases = (
+				065CB15A2A0C0A9A00816B79 /* Sources */,
+				065CB15B2A0C0A9A00816B79 /* Frameworks */,
+				065CB15C2A0C0A9A00816B79 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AirbnbRoomCheck;
+			productName = AirbnbRoomCheck;
+			productReference = 065CB15E2A0C0A9B00816B79 /* AirbnbRoomCheck.app */;
+			productType = "com.apple.product-type.application";
+		};
+		065CB16D2A0C0AAE00816B79 /* AirbnbRoomCheckTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 065CB1852A0C0AAF00816B79 /* Build configuration list for PBXNativeTarget "AirbnbRoomCheckTests" */;
+			buildPhases = (
+				065CB16A2A0C0AAE00816B79 /* Sources */,
+				065CB16B2A0C0AAE00816B79 /* Frameworks */,
+				065CB16C2A0C0AAE00816B79 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				065CB1702A0C0AAE00816B79 /* PBXTargetDependency */,
+			);
+			name = AirbnbRoomCheckTests;
+			productName = AirbnbRoomCheckTests;
+			productReference = 065CB16E2A0C0AAE00816B79 /* AirbnbRoomCheckTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		065CB1772A0C0AAE00816B79 /* AirbnbRoomCheckUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 065CB1882A0C0AAF00816B79 /* Build configuration list for PBXNativeTarget "AirbnbRoomCheckUITests" */;
+			buildPhases = (
+				065CB1742A0C0AAE00816B79 /* Sources */,
+				065CB1752A0C0AAE00816B79 /* Frameworks */,
+				065CB1762A0C0AAE00816B79 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				065CB17A2A0C0AAE00816B79 /* PBXTargetDependency */,
+			);
+			name = AirbnbRoomCheckUITests;
+			productName = AirbnbRoomCheckUITests;
+			productReference = 065CB1782A0C0AAE00816B79 /* AirbnbRoomCheckUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		065CB1562A0C0A9A00816B79 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1320;
+				LastUpgradeCheck = 1320;
+				TargetAttributes = {
+					065CB15D2A0C0A9A00816B79 = {
+						CreatedOnToolsVersion = 13.2.1;
+					};
+					065CB16D2A0C0AAE00816B79 = {
+						CreatedOnToolsVersion = 13.2.1;
+						TestTargetID = 065CB15D2A0C0A9A00816B79;
+					};
+					065CB1772A0C0AAE00816B79 = {
+						CreatedOnToolsVersion = 13.2.1;
+						TestTargetID = 065CB15D2A0C0A9A00816B79;
+					};
+				};
+			};
+			buildConfigurationList = 065CB1592A0C0A9A00816B79 /* Build configuration list for PBXProject "AirbnbRoomCheck" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 065CB1552A0C0A9A00816B79;
+			productRefGroup = 065CB15F2A0C0A9B00816B79 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				065CB15D2A0C0A9A00816B79 /* AirbnbRoomCheck */,
+				065CB16D2A0C0AAE00816B79 /* AirbnbRoomCheckTests */,
+				065CB1772A0C0AAE00816B79 /* AirbnbRoomCheckUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		065CB15C2A0C0A9A00816B79 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				065CB1692A0C0AAE00816B79 /* Preview Assets.xcassets in Resources */,
+				065CB1662A0C0AAE00816B79 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		065CB16C2A0C0AAE00816B79 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		065CB1762A0C0AAE00816B79 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		065CB15A2A0C0A9A00816B79 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				065CB1642A0C0A9B00816B79 /* ContentView.swift in Sources */,
+				065CB1622A0C0A9B00816B79 /* AirbnbRoomCheckApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		065CB16A2A0C0AAE00816B79 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				065CB1732A0C0AAE00816B79 /* AirbnbRoomCheckTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		065CB1742A0C0AAE00816B79 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				065CB17F2A0C0AAF00816B79 /* AirbnbRoomCheckUITestsLaunchTests.swift in Sources */,
+				065CB17D2A0C0AAE00816B79 /* AirbnbRoomCheckUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		065CB1702A0C0AAE00816B79 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 065CB15D2A0C0A9A00816B79 /* AirbnbRoomCheck */;
+			targetProxy = 065CB16F2A0C0AAE00816B79 /* PBXContainerItemProxy */;
+		};
+		065CB17A2A0C0AAE00816B79 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 065CB15D2A0C0A9A00816B79 /* AirbnbRoomCheck */;
+			targetProxy = 065CB1792A0C0AAE00816B79 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		065CB1802A0C0AAF00816B79 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		065CB1812A0C0AAF00816B79 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		065CB1832A0C0AAF00816B79 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"AirbnbRoomCheck/Preview Content\"";
+				DEVELOPMENT_TEAM = 9FGVTTM39Q;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "-234.AirbnbRoomCheck";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		065CB1842A0C0AAF00816B79 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"AirbnbRoomCheck/Preview Content\"";
+				DEVELOPMENT_TEAM = 9FGVTTM39Q;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "-234.AirbnbRoomCheck";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		065CB1862A0C0AAF00816B79 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 9FGVTTM39Q;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "-234.AirbnbRoomCheckTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AirbnbRoomCheck.app/AirbnbRoomCheck";
+			};
+			name = Debug;
+		};
+		065CB1872A0C0AAF00816B79 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 9FGVTTM39Q;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "-234.AirbnbRoomCheckTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AirbnbRoomCheck.app/AirbnbRoomCheck";
+			};
+			name = Release;
+		};
+		065CB1892A0C0AAF00816B79 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 9FGVTTM39Q;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "-234.AirbnbRoomCheckUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = AirbnbRoomCheck;
+			};
+			name = Debug;
+		};
+		065CB18A2A0C0AAF00816B79 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 9FGVTTM39Q;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "-234.AirbnbRoomCheckUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = AirbnbRoomCheck;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		065CB1592A0C0A9A00816B79 /* Build configuration list for PBXProject "AirbnbRoomCheck" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				065CB1802A0C0AAF00816B79 /* Debug */,
+				065CB1812A0C0AAF00816B79 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		065CB1822A0C0AAF00816B79 /* Build configuration list for PBXNativeTarget "AirbnbRoomCheck" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				065CB1832A0C0AAF00816B79 /* Debug */,
+				065CB1842A0C0AAF00816B79 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		065CB1852A0C0AAF00816B79 /* Build configuration list for PBXNativeTarget "AirbnbRoomCheckTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				065CB1862A0C0AAF00816B79 /* Debug */,
+				065CB1872A0C0AAF00816B79 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		065CB1882A0C0AAF00816B79 /* Build configuration list for PBXNativeTarget "AirbnbRoomCheckUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				065CB1892A0C0AAF00816B79 /* Debug */,
+				065CB18A2A0C0AAF00816B79 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 065CB1562A0C0A9A00816B79 /* Project object */;
+}
