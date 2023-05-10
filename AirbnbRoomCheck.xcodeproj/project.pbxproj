@@ -18,6 +18,7 @@
 		065CB1912A0C0F9E00816B79 /* LocationDataModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 065CB1902A0C0F9E00816B79 /* LocationDataModel.swift */; };
 		065CB1932A0C120C00816B79 /* LocationsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 065CB1922A0C120C00816B79 /* LocationsView.swift */; };
 		065CB1952A0C122B00816B79 /* LocationsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 065CB1942A0C122B00816B79 /* LocationsViewModel.swift */; };
+		065CB1972A0C1E7100816B79 /* SearchRoomsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 065CB1962A0C1E7100816B79 /* SearchRoomsView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -52,6 +53,7 @@
 		065CB1902A0C0F9E00816B79 /* LocationDataModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationDataModel.swift; sourceTree = "<group>"; };
 		065CB1922A0C120C00816B79 /* LocationsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationsView.swift; sourceTree = "<group>"; };
 		065CB1942A0C122B00816B79 /* LocationsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationsViewModel.swift; sourceTree = "<group>"; };
+		065CB1962A0C1E7100816B79 /* SearchRoomsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchRoomsView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -151,6 +153,7 @@
 				065CB1632A0C0A9B00816B79 /* ContentView.swift */,
 				065CB18E2A0C0EF700816B79 /* SearchLocationsView.swift */,
 				065CB1922A0C120C00816B79 /* LocationsView.swift */,
+				065CB1962A0C1E7100816B79 /* SearchRoomsView.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -299,6 +302,7 @@
 				065CB1932A0C120C00816B79 /* LocationsView.swift in Sources */,
 				065CB1912A0C0F9E00816B79 /* LocationDataModel.swift in Sources */,
 				065CB18F2A0C0EF700816B79 /* SearchLocationsView.swift in Sources */,
+				065CB1972A0C1E7100816B79 /* SearchRoomsView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
