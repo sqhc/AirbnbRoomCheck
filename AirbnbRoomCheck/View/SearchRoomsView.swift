@@ -26,11 +26,16 @@ struct SearchRoomsView: View {
             Spacer()
             DatePicker("Checkin Date:", selection: $checkinDate, in: Date()..., displayedComponents: [.date])
             DatePicker("Checkout Date", selection: $checkoutDate, in: checkinDate..., displayedComponents: [.date])
+            Text("Check in date: \(dateFormatter.string(from: checkinDate))")
+            Text("Check out date: \(dateFormatter.string(from: checkoutDate))")
             Stepper(value: $adults, in: 1...10) {
                 Text("Number of adults: \(adults)")
             }
             TextField("Location query", text: $query)
                 .background(Color.gray.opacity(0.3).cornerRadius(20))
+            NavigationLink("Look for rooms") {
+                RoomsView(vm: RoomsViewModel(location: query, checkin: dateFormatter.string(from: checkinDate), checkout: dateFormatter.string(from: checkoutDate), adults: adults))
+            }
             Spacer()
         }
     }

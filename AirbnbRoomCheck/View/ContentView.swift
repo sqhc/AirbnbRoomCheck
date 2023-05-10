@@ -21,6 +21,13 @@ struct ContentView: View {
                         .background()
                         .cornerRadius(20)
                         .padding()
+                    Divider()
+                    NavigationLink("Rooms") {
+                        SearchRoomsView()
+                    }
+                        .background()
+                        .cornerRadius(20)
+                        .padding()
                 }
             }
             .navigationTitle("Welcome using Airbnb")
