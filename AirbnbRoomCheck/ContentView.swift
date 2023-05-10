@@ -9,8 +9,18 @@ import SwiftUI
 
 struct ContentView: View {
     var body: some View {
-        Text("Hello, world!")
-            .padding()
+        NavigationView{
+            ZStack{
+                Color.pink
+                    .edgesIgnoringSafeArea(.all)
+                VStack{
+                    Text("What do you want to search?")
+                        .foregroundColor(.white)
+                        .font(.title)
+                }
+            }
+            .navigationTitle("Welcome using Airbnb")
+        }
     }
 }
 
