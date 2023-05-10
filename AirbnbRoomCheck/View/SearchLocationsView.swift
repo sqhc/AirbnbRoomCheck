@@ -17,6 +17,9 @@ struct SearchLocationsView: View {
             TextField("Location query", text: $query)
                 .background(Color.gray.opacity(0.3).cornerRadius(20))
                 .padding(10)
+            NavigationLink("Search locations") {
+                LocationsView(vm: LocationsViewModel(query: query))
+            }
             Spacer()
         }
     }
