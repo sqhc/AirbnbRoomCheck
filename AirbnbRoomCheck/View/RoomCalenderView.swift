@@ -16,7 +16,7 @@ struct RoomCalenderView: View {
                 List(months, id: \.year){ month in
                    CalendarItem(month: month)
                 }
-                .listStyle(.plain)
+                .listStyle(.insetGrouped)
                 .navigationTitle("Calendar of the room")
             }
             else{
@@ -57,6 +57,7 @@ struct CalendarItem: View{
                     Text("Local price: \(day.price?.local_price_formatted ?? "")")
                     Text("Natice price: \(day.price?.native_adjusted_price ?? 0) \(day.price?.native_currency ?? "")")
                 }
+                .frame(width: 300, height: 50)
             }
             Text("Conditions")
             if let conditions = month.condition_ranges{
@@ -66,6 +67,7 @@ struct CalendarItem: View{
                     Text(condition.conditions?.closed_to_arrival ?? false ? "Close to arrival" : "Open to arrival")
                     Text(condition.conditions?.closed_to_departure ?? false ? "Close to departure" : "Open to departure")
                 }
+                .frame(width: 300, height: 50)
             }
         }
     }

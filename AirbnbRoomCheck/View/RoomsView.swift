@@ -9,6 +9,7 @@ import SwiftUI
 
 struct RoomsView: View {
     @StateObject var vm: RoomsViewModel
+    @State private var appeared = false
     
     var body: some View {
         ZStack{
@@ -16,14 +17,18 @@ struct RoomsView: View {
                 List(rooms, id: \.id){ room in
                     RoomItem(room: room)
                 }
-                .listStyle(.plain)
+                .listStyle(.insetGrouped)
                 .navigationTitle("Rooms in \(vm.location)")
             }
             else{
                 ProgressView()
             }
         }
-        .onAppear(perform: vm.fetchRooms)
+        .onAppear(perform: {
+            guard !appeared else{ return }
+            appeared.toggle()
+            vm.fetchRooms()
+        })
         .alert(isPresented: $vm.hasError, error: vm.error) {
             Button {
                 
@@ -61,6 +66,7 @@ struct RoomItem: View{
                 } header: {
                     Text("Images")
                 }
+                .frame(width: 300, height: 50)
             }
             if let amenities = room.previewAmenities{
                 Section {
@@ -70,6 +76,7 @@ struct RoomItem: View{
                 } header: {
                     Text("Amenities")
                 }
+                .frame(width: 300, height: 50)
             }
             Text("Daily price: \(room.price?.rate ?? 0), total price: \(room.price?.total ?? 0) in \(room.price?.currency ?? "")")
             NavigationLink("Calendar of this room") {
