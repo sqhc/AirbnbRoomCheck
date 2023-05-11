@@ -30,6 +30,7 @@ struct SearchRoomsView: View {
                 Text("Number of adults: \(adults)")
             }
             TextField("Location query", text: $query)
+                .frame(width: 400, height: 50)
                 .background(Color.gray.opacity(0.3).cornerRadius(20))
             NavigationLink("Look for rooms") {
                 RoomsView(vm: RoomsViewModel(location: query, checkin: dateFormatter.string(from: checkinDate), checkout: dateFormatter.string(from: checkoutDate), adults: adults))

@@ -18,6 +18,7 @@ struct ContentView: View {
                         .foregroundColor(.white)
                         .font(.title)
                     NavigationLink("Locations", destination: SearchLocationsView())
+                        .frame(width: 100, height: 50)
                         .background()
                         .cornerRadius(20)
                         .padding()
@@ -25,6 +26,7 @@ struct ContentView: View {
                     NavigationLink("Rooms") {
                         SearchRoomsView()
                     }
+                        .frame(width: 100, height: 50)
                         .background()
                         .cornerRadius(20)
                         .padding()
