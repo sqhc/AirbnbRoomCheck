@@ -11,7 +11,7 @@ struct RoomsView: View {
     @StateObject var vm: RoomsViewModel
     
     var body: some View {
-        VStack{
+        ZStack{
             if let rooms = vm.rooms?.results{
                 List(rooms, id: \.id){ room in
                     RoomItem(room: room)
@@ -72,6 +72,9 @@ struct RoomItem: View{
                 }
             }
             Text("Daily price: \(room.price?.rate ?? 0), total price: \(room.price?.total ?? 0) in \(room.price?.currency ?? "")")
+            NavigationLink("Calendar of this room") {
+                RoomCalenderView(vm: RoomCalenderViewModel(id: room.id ?? ""))
+            }
         }
     }
 }

@@ -26,8 +26,6 @@ struct SearchRoomsView: View {
             Spacer()
             DatePicker("Checkin Date:", selection: $checkinDate, in: Date()..., displayedComponents: [.date])
             DatePicker("Checkout Date", selection: $checkoutDate, in: checkinDate..., displayedComponents: [.date])
-            Text("Check in date: \(dateFormatter.string(from: checkinDate))")
-            Text("Check out date: \(dateFormatter.string(from: checkoutDate))")
             Stepper(value: $adults, in: 1...10) {
                 Text("Number of adults: \(adults)")
             }

@@ -22,6 +22,9 @@
 		065CB1992A0C27D300816B79 /* RoomsDataModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 065CB1982A0C27D300816B79 /* RoomsDataModel.swift */; };
 		065CB19B2A0C2B7C00816B79 /* RoomsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 065CB19A2A0C2B7C00816B79 /* RoomsView.swift */; };
 		065CB19D2A0C2BA200816B79 /* RoomsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 065CB19C2A0C2BA200816B79 /* RoomsViewModel.swift */; };
+		06AD385D2A0D236F00339A7D /* RoomCalenderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06AD385C2A0D236F00339A7D /* RoomCalenderView.swift */; };
+		06AD385F2A0D239100339A7D /* RoomCalenderViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06AD385E2A0D239100339A7D /* RoomCalenderViewModel.swift */; };
+		06C817432A0D1B4000711391 /* RoomCalenderDataModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06C817422A0D1B4000711391 /* RoomCalenderDataModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -60,6 +63,9 @@
 		065CB1982A0C27D300816B79 /* RoomsDataModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoomsDataModel.swift; sourceTree = "<group>"; };
 		065CB19A2A0C2B7C00816B79 /* RoomsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoomsView.swift; sourceTree = "<group>"; };
 		065CB19C2A0C2BA200816B79 /* RoomsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoomsViewModel.swift; sourceTree = "<group>"; };
+		06AD385C2A0D236F00339A7D /* RoomCalenderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoomCalenderView.swift; sourceTree = "<group>"; };
+		06AD385E2A0D239100339A7D /* RoomCalenderViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoomCalenderViewModel.swift; sourceTree = "<group>"; };
+		06C817422A0D1B4000711391 /* RoomCalenderDataModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoomCalenderDataModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -150,6 +156,7 @@
 			children = (
 				065CB1902A0C0F9E00816B79 /* LocationDataModel.swift */,
 				065CB1982A0C27D300816B79 /* RoomsDataModel.swift */,
+				06C817422A0D1B4000711391 /* RoomCalenderDataModel.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -162,6 +169,7 @@
 				065CB1922A0C120C00816B79 /* LocationsView.swift */,
 				065CB1962A0C1E7100816B79 /* SearchRoomsView.swift */,
 				065CB19A2A0C2B7C00816B79 /* RoomsView.swift */,
+				06AD385C2A0D236F00339A7D /* RoomCalenderView.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -171,6 +179,7 @@
 			children = (
 				065CB1942A0C122B00816B79 /* LocationsViewModel.swift */,
 				065CB19C2A0C2BA200816B79 /* RoomsViewModel.swift */,
+				06AD385E2A0D239100339A7D /* RoomCalenderViewModel.swift */,
 			);
 			path = "View Model";
 			sourceTree = "<group>";
@@ -308,7 +317,10 @@
 				065CB19B2A0C2B7C00816B79 /* RoomsView.swift in Sources */,
 				065CB1642A0C0A9B00816B79 /* ContentView.swift in Sources */,
 				065CB1952A0C122B00816B79 /* LocationsViewModel.swift in Sources */,
+				06AD385D2A0D236F00339A7D /* RoomCalenderView.swift in Sources */,
+				06AD385F2A0D239100339A7D /* RoomCalenderViewModel.swift in Sources */,
 				065CB1992A0C27D300816B79 /* RoomsDataModel.swift in Sources */,
+				06C817432A0D1B4000711391 /* RoomCalenderDataModel.swift in Sources */,
 				065CB1622A0C0A9B00816B79 /* AirbnbRoomCheckApp.swift in Sources */,
 				065CB1932A0C120C00816B79 /* LocationsView.swift in Sources */,
 				065CB1912A0C0F9E00816B79 /* LocationDataModel.swift in Sources */,
