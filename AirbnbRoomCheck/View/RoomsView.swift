@@ -49,6 +49,8 @@ struct RoomsView_Previews: PreviewProvider {
 struct RoomItem: View{
     var room: AirbnbRoom
     @State var showCalendar = false
+    @State var showImages = false
+    @State var showAmenities = false
     
     var body: some View{
         VStack{
@@ -60,26 +62,48 @@ struct RoomItem: View{
                 Image(systemName: "hand.thumbsup.fill")
                 Text("\(room.rating ?? 0.0)")
             }
-            if let images = room.images{
-                Section {
-                    List(images, id: \.self){ image in
-                        AsyncImage(url: URL(string: image))
-                    }
-                } header: {
-                    Text("Images")
-                }
-                .frame(width: 300, height: 50)
+            Button {
+                showImages.toggle()
+            } label: {
+                Text("Images")
+                    .foregroundColor(.green)
+                    .font(.headline)
+                    .padding(20)
+                    .background(Color.white.cornerRadius(10))
             }
-            if let amenities = room.previewAmenities{
-                Section {
-                    List(amenities, id: \.self){ amenity in
-                        Text(amenity)
+            .sheet(isPresented: $showImages) {
+                if let images = room.images{
+                    Section {
+                        List(images, id: \.self){ image in
+                            AsyncImage(url: URL(string: image))
+                        }
+                    } header: {
+                        Text("Images")
                     }
-                } header: {
-                    Text("Amenities")
                 }
-                .frame(width: 300, height: 50)
             }
+            
+            Button {
+                showAmenities.toggle()
+            } label: {
+                Text("Amenities")
+                    .foregroundColor(.white)
+                    .font(.headline)
+                    .padding(20)
+                    .background(Color.yellow.cornerRadius(10))
+            }
+            .sheet(isPresented: $showAmenities) {
+                if let amenities = room.previewAmenities{
+                    Section {
+                        List(amenities, id: \.self){ amenity in
+                            Text(amenity)
+                        }
+                    } header: {
+                        Text("Amenities")
+                    }
+                }
+            }
+
             Text("Daily price: \(room.price?.rate ?? 0), total price: \(room.price?.total ?? 0) in \(room.price?.currency ?? "")")
             Button {
                 showCalendar.toggle()
