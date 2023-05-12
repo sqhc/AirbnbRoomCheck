@@ -48,6 +48,8 @@ struct RoomsView_Previews: PreviewProvider {
 
 struct RoomItem: View{
     var room: AirbnbRoom
+    @State var showCalendar = false
+    
     var body: some View{
         VStack{
             Text(room.name ?? "")
@@ -79,7 +81,16 @@ struct RoomItem: View{
                 .frame(width: 300, height: 50)
             }
             Text("Daily price: \(room.price?.rate ?? 0), total price: \(room.price?.total ?? 0) in \(room.price?.currency ?? "")")
-            NavigationLink("Calendar of this room") {
+            Button {
+                showCalendar.toggle()
+            } label: {
+                Text("Calendar of this room")
+                    .foregroundColor(.black)
+                    .font(.headline)
+                    .padding(20)
+                    .background(Color.red.cornerRadius(10))
+            }
+            .sheet(isPresented: $showCalendar) {
                 RoomCalenderView(vm: RoomCalenderViewModel(id: room.id ?? ""))
             }
         }
